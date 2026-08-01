@@ -8,9 +8,7 @@ local Games = {
     [142823291] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778474506905.lua.txt'))()",-- MM2
     [3351674303] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778522816874.lua.txt'))()",-- DRIVING EMIPER
 	[98927955463992] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778575173346.lua.txt'))()",-- Servive Zombie Arena
-	[93978595733734] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Violence-District"))()",-- Violence-District
 }
-
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "128BitUI_V4"
 screenGui.ResetOnSpawn = false
