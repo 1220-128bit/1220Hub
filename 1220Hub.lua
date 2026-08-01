@@ -8,7 +8,9 @@ local Games = {
     [142823291] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778474506905.lua.txt'))()",-- MM2
     [3351674303] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778522816874.lua.txt'))()",-- DRIVING EMIPER
 	[98927955463992] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778575173346.lua.txt'))()",-- Servive Zombie Arena
+	[93978595733734] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Violence-District'))()",
 }
+
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "128BitUI_V4"
 screenGui.ResetOnSpawn = false
@@ -29,7 +31,7 @@ local HoverSound = 6543311100
 
 local MainColor = Color3.fromRGB(160, 80, 255)
 local SparkColor = Color3.fromRGB(220, 180, 255)
-local UI_SIZE = UDim2.new(0, 480, 0, 280
+local UI_SIZE = UDim2.new(0, 480, 0, 280)
     
 local function createSpark(parent)
     local spark = Instance.new("Frame")
@@ -283,4 +285,3 @@ finish(function()
     mainFrame.Size = UDim2.new(0, 0, 0, 0)
     TweenService:Create(mainFrame, TweenInfo.new(0.6, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Size = UI_SIZE}):Play()
 end)
-  
