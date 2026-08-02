@@ -9,7 +9,7 @@ local Games = {
     [3351674303] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778522816874.lua.txt'))()",-- DRIVING EMIPER
 	[98927955463992] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778575173346.lua.txt'))()",-- Servive Zombie Arena
 	[93978595733734] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Violence-District'))()", -- Violence District 
-	[100000003] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Main-A-Mountain'))()", -- Main a Mountain 
+	[125927821145949] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Main-A-Mountain'))()", -- Main a Mountain 
 }
 
 local screenGui = Instance.new("ScreenGui")
