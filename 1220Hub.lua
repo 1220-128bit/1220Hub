@@ -11,7 +11,7 @@ local Games = {
 	[93978595733734] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Violence-District'))()", -- Violence District 
 	[125927821145949] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Main-A-Mountain'))()", -- Main a Mountain 
 	[93922097153911] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Element-Arena'))()", -- Element Arena
-	[4924922222] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Brookhaven-RP')()",-- Brookhaven RP
+	[4924922222] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Brookhaven-RP'))()",-- Brookhaven RP
 }
 
 local screenGui = Instance.new("ScreenGui")
