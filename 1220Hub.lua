@@ -21,7 +21,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local LOGO_ID = "rbxassetid://115578801000914"
 
 local PLACE_SCRIPTS = {
-    [4924922222]      = "https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Brookhaven-RP",
+    [4924922222]      = "https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1790478958597.lua.txt",
     [142823291] = "https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/obfuscated_script-1778474506905.lua.txt",
     [93922097153911] = "https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Element-Arena",
     [125927821145949] = "https://raw.githubusercontent.com/1220-128bit/1220Hub/refs/heads/main/Main-A-Mountain",
