@@ -98,17 +98,22 @@ task.spawn(function()
     ScreenGui:Destroy()
 
     -- ====== RUN SCRIPT ======
-    local placeId = game.PlaceId
-    local scriptUrl = PLACE_SCRIPTS[placeId]
+local placeId = game.PlaceId
+local scriptUrl = PLACE_SCRIPTS[placeId]
 
-    if scriptUrl then
-        local ok, err = pcall(function()
-            loadstring(game:HttpGet(scriptUrl, true))()
-        end)
-        if not ok then
-            warn("[128B!t Hub X] Load failed: " .. tostring(err))
-        end
-    else
-        warn("[128B!t Hub X] No script for Place ID: " .. tostring(placeId))
+if scriptUrl then
+    -- ► เพิ่มบรรทัดนี้ (ping analytics)
+    pcall(function()
+        game:HttpGet("https://128bit.online/api/run?placeId=" .. tostring(placeId), true)
+    end)
+
+    local ok, err = pcall(function()
+        loadstring(game:HttpGet(scriptUrl, true))()
+    end)
+    if not ok then
+        warn("[128B!t Hub X] Load failed: " .. tostring(err))
     end
+else
+    warn("[128B!t Hub X] No script for Place ID: " .. tostring(placeId))
+  end
 end)
